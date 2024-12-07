@@ -1,0 +1,14 @@
+html {background-color: black;}
+h1 {
+    color:white ;
+    font-size: 20px;
+} 
+p {color: lightgrey;
+font-size: 12px;}
+div {border: 2px dotted;}
+div {width: 100px;}
+div {height: 100px;}
+div {color:white}
+div {font-size: 8px;}
+ol {list-style-type: upper-alpha;}
+ul {list-style-type: square;}

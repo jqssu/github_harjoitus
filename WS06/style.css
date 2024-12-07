@@ -1,0 +1,50 @@
+html {background-color: white;
+    color: black;}
+    header {grid-area: header;
+    background-color: black ;
+    color: white;
+    border:5px;
+    border-color: azure;
+    text-align: center;
+    }
+    body {font-family: Arial, Helvetica, sans-serif;}
+    body {width: 90%;
+    margin-left: auto;
+    margin-right: auto;}
+    div {display: grid;
+        grid-template-areas: "header header" "nav nav" "aside aside" "section section" 
+         "footer footer";
+    grid-template-columns: 30% 80%; 
+    }
+    nav {grid-area: nav;
+    background-color: blue;
+    text-align: center;
+text-decoration-color: blue;}
+
+    
+    section {
+        float: right;
+        margin-left: 10px;
+        background-color: aquamarine;
+    height:auto;
+border-left-width:1cm;}
+
+    aside {float: left;
+        background-color: pink;
+    width: 100%;
+text-align: left;}
+    footer {grid-area: footer;
+    background-color: chartreuse;
+    text-align: center;}
+    a {color:gray;
+    margin: 10px;}
+    img {width:50px;
+        height:fit-content;
+    margin-left: 40%;}
+    progress {width: 40%;
+        height: 10px;
+    border:10px;}    
+
+
+
+
